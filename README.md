@@ -1,5 +1,5 @@
 # 💫 About Me:
-Software engineer focused on Python, backend systems, and DevOps automation.<br>• I build reliable systems with Python, Docker, and CI/CD pipelines.<br>• Python developer with hands-on experience in CI/CD, containers, and ML projects.<br>• I enjoy debugging systems, automating workflows, and making things boringly reliable.<br>
+• Software engineer focused on Python, backend systems, and DevOps automation.<br>• I build reliable systems with Python, Docker, and CI/CD pipelines.<br>• Python developer with hands-on experience in CI/CD, containers, and ML projects.<br>• I enjoy debugging systems, automating workflows, and making things boringly reliable.<br>
 
 
 ## 🌐 Socials:
