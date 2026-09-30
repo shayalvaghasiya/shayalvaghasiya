@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-label="Shayal Vaghasiya tech stack">
+  <rect width="1200" height="670" fill="#0d1117"/>
+  <g font-family="monospace, monospace">
+    <text x="48" y="60" font-size="24" font-weight="bold" fill="#58a6ff">// tech stack</text>
+    <text x="48" y="90" font-size="13" fill="#8b949e">tools used in production build &amp; release workflows</text>
+  </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="62" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
+      <text x="83" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">Py</text>
+      <text x="120" y="152" font-size="15" font-weight="bold" fill="#e6edf3">Python</text>
+      <text x="120" y="170" font-size="11" fill="#8b949e">languages</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="326" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="340" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
+      <text x="361" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">sh</text>
+      <text x="398" y="152" font-size="15" font-weight="bold" fill="#e6edf3">Bash</text>
+      <text x="398" y="170" font-size="11" fill="#8b949e">languages</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="604" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="618" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
+      <text x="639" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">S</text>
+      <text x="676" y="152" font-size="15" font-weight="bold" fill="#e6edf3">SQL</text>
+      <text x="676" y="170" font-size="11" fill="#8b949e">languages</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="882" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="896" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
+      <text x="917" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">Lx</text>
+      <text x="954" y="152" font-size="15" font-weight="bold" fill="#e6edf3">Linux</text>
+      <text x="954" y="170" font-size="11" fill="#8b949e">languages</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="62" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
+      <text x="83" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">J</text>
+      <text x="120" y="242" font-size="15" font-weight="bold" fill="#e6edf3">Jenkins</text>
+      <text x="120" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="326" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="340" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
+      <text x="361" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">GH</text>
+      <text x="398" y="242" font-size="15" font-weight="bold" fill="#e6edf3">GitHub Actions</text>
+      <text x="398" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="604" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="618" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
+      <text x="639" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">BB</text>
+      <text x="676" y="242" font-size="15" font-weight="bold" fill="#e6edf3">Bitbucket</text>
+      <text x="676" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="882" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="896" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
+      <text x="917" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">G</text>
+      <text x="954" y="242" font-size="15" font-weight="bold" fill="#e6edf3">Git</text>
+      <text x="954" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="62" y="314" width="42" height="42" rx="9" fill="#388bfd" fill-opacity="0.12" stroke="#388bfd"/>
+      <text x="83" y="342" font-size="15" font-weight="bold" fill="#388bfd" text-anchor="middle">D</text>
+      <text x="120" y="332" font-size="15" font-weight="bold" fill="#e6edf3">Docker</text>
+      <text x="120" y="350" font-size="11" fill="#8b949e">containers</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="326" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="340" y="314" width="42" height="42" rx="9" fill="#388bfd" fill-opacity="0.12" stroke="#388bfd"/>
+      <text x="361" y="342" font-size="15" font-weight="bold" fill="#388bfd" text-anchor="middle">N</text>
+      <text x="398" y="332" font-size="15" font-weight="bold" fill="#e6edf3">Nginx</text>
+      <text x="398" y="350" font-size="11" fill="#8b949e">containers</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="604" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="618" y="314" width="42" height="42" rx="9" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7"/>
+      <text x="639" y="342" font-size="15" font-weight="bold" fill="#a371f7" text-anchor="middle">Tf</text>
+      <text x="676" y="332" font-size="15" font-weight="bold" fill="#e6edf3">Terraform</text>
+      <text x="676" y="350" font-size="11" fill="#8b949e">iac</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="882" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="896" y="314" width="42" height="42" rx="9" fill="#58a6ff" fill-opacity="0.12" stroke="#58a6ff"/>
+      <text x="917" y="342" font-size="15" font-weight="bold" fill="#58a6ff" text-anchor="middle">A</text>
+      <text x="954" y="332" font-size="15" font-weight="bold" fill="#e6edf3">AWS</text>
+      <text x="954" y="350" font-size="11" fill="#8b949e">cloud</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="62" y="404" width="42" height="42" rx="9" fill="#58a6ff" fill-opacity="0.12" stroke="#58a6ff"/>
+      <text x="83" y="432" font-size="15" font-weight="bold" fill="#58a6ff" text-anchor="middle">G</text>
+      <text x="120" y="422" font-size="15" font-weight="bold" fill="#e6edf3">GCP</text>
+      <text x="120" y="440" font-size="11" fill="#8b949e">cloud</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="326" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="340" y="404" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
+      <text x="361" y="432" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">Gf</text>
+      <text x="398" y="422" font-size="15" font-weight="bold" fill="#e6edf3">Grafana</text>
+      <text x="398" y="440" font-size="11" fill="#8b949e">observability</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="604" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="618" y="404" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
+      <text x="639" y="432" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">P</text>
+      <text x="676" y="422" font-size="15" font-weight="bold" fill="#e6edf3">Prometheus</text>
+      <text x="676" y="440" font-size="11" fill="#8b949e">observability</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="882" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="896" y="404" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
+      <text x="917" y="432" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">Tg</text>
+      <text x="954" y="422" font-size="15" font-weight="bold" fill="#e6edf3">Telegraf</text>
+      <text x="954" y="440" font-size="11" fill="#8b949e">observability</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="62" y="494" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
+      <text x="83" y="522" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">Cw</text>
+      <text x="120" y="512" font-size="15" font-weight="bold" fill="#e6edf3">CloudWatch</text>
+      <text x="120" y="530" font-size="11" fill="#8b949e">observability</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="326" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="340" y="494" width="42" height="42" rx="9" fill="#f85149" fill-opacity="0.12" stroke="#f85149"/>
+      <text x="361" y="522" font-size="15" font-weight="bold" fill="#f85149" text-anchor="middle">Cv</text>
+      <text x="398" y="512" font-size="15" font-weight="bold" fill="#e6edf3">Coverity</text>
+      <text x="398" y="530" font-size="11" fill="#8b949e">security</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="604" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="618" y="494" width="42" height="42" rx="9" fill="#f85149" fill-opacity="0.12" stroke="#f85149"/>
+      <text x="639" y="522" font-size="15" font-weight="bold" fill="#f85149" text-anchor="middle">BD</text>
+      <text x="676" y="512" font-size="15" font-weight="bold" fill="#e6edf3">Black Duck</text>
+      <text x="676" y="530" font-size="11" fill="#8b949e">security</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="882" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="896" y="494" width="42" height="42" rx="9" fill="#f85149" fill-opacity="0.12" stroke="#f85149"/>
+      <text x="917" y="522" font-size="15" font-weight="bold" fill="#f85149" text-anchor="middle">Sq</text>
+      <text x="954" y="512" font-size="15" font-weight="bold" fill="#e6edf3">SonarQube</text>
+      <text x="954" y="530" font-size="11" fill="#8b949e">security</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="568" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="62" y="584" width="42" height="42" rx="9" fill="#d29922" fill-opacity="0.12" stroke="#d29922"/>
+      <text x="83" y="612" font-size="15" font-weight="bold" fill="#d29922" text-anchor="middle">Pg</text>
+      <text x="120" y="602" font-size="15" font-weight="bold" fill="#e6edf3">PostgreSQL</text>
+      <text x="120" y="620" font-size="11" fill="#8b949e">databases</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="326" y="568" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="340" y="584" width="42" height="42" rx="9" fill="#d29922" fill-opacity="0.12" stroke="#d29922"/>
+      <text x="361" y="612" font-size="15" font-weight="bold" fill="#d29922" text-anchor="middle">My</text>
+      <text x="398" y="602" font-size="15" font-weight="bold" fill="#e6edf3">MySQL</text>
+      <text x="398" y="620" font-size="11" fill="#8b949e">databases</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="604" y="568" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <rect x="618" y="584" width="42" height="42" rx="9" fill="#d29922" fill-opacity="0.12" stroke="#d29922"/>
+      <text x="639" y="612" font-size="15" font-weight="bold" fill="#d29922" text-anchor="middle">Mo</text>
+      <text x="676" y="602" font-size="15" font-weight="bold" fill="#e6edf3">MongoDB</text>
+      <text x="676" y="620" font-size="11" fill="#8b949e">databases</text>
+    </g>
+  <g font-family="monospace, monospace" font-size="14">
+    <text x="48" y="648" fill="#7ee787">build ● green</text>
+    <text x="185" y="648" fill="#3fb950">release ● automated</text>
+    <text x="390" y="648" fill="#8b949e">observe ● always on</text>
+    <text x="588" y="648" fill="#8b949e">ship ● fast</text>
+  </g>
+</svg>

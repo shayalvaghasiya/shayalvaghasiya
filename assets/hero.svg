@@ -56,14 +56,12 @@
     <rect x="442" y="242" width="118" height="32" rx="16" fill="url(#chip)" stroke="#388bfd"/>
     <text x="460" y="263" fill="#388bfd" font-weight="bold">Docker</text>
 
-    <rect x="64" y="290" width="168" height="32" rx="16" fill="url(#chip)" stroke="#f0883e"/>
-    <text x="82" y="311" fill="#f0883e" font-weight="bold">Kubernetes</text>
-    <rect x="244" y="290" width="130" height="32" rx="16" fill="url(#chip)" stroke="#d29922"/>
-    <text x="262" y="311" fill="#d29922" font-weight="bold">Jenkins</text>
-    <rect x="386" y="290" width="196" height="32" rx="16" fill="url(#chip)" stroke="#3fb950"/>
-    <text x="404" y="311" fill="#3fb950" font-weight="bold">GitHub Actions</text>
-    <rect x="594" y="290" width="128" height="32" rx="16" fill="url(#chip)" stroke="#f46800"/>
-    <text x="612" y="311" fill="#f46800" font-weight="bold">Grafana</text>
+    <rect x="64" y="290" width="130" height="32" rx="16" fill="url(#chip)" stroke="#d29922"/>
+    <text x="82" y="311" fill="#d29922" font-weight="bold">Jenkins</text>
+    <rect x="206" y="290" width="196" height="32" rx="16" fill="url(#chip)" stroke="#3fb950"/>
+    <text x="224" y="311" fill="#3fb950" font-weight="bold">GitHub Actions</text>
+    <rect x="414" y="290" width="128" height="32" rx="16" fill="url(#chip)" stroke="#f46800"/>
+    <text x="432" y="311" fill="#f46800" font-weight="bold">Grafana</text>
   </g>
 
   <g font-family="monospace, monospace">
