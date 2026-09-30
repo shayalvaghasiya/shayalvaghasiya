@@ -36,8 +36,6 @@ I'm a **DevOps Engineer** turning slow, manual release cycles into fast, automat
   <img src="https://streak-stats.demolab.com/?user=shayalvaghasiya&theme=github-dark-blue&hide_border=true" width="70%" alt="GitHub streak" />
 </p>
 
-<img src="assets/highlights.svg" width="100%" alt="Shayal Vaghasiya — key metrics" />
-
 ---
 
 <details>
