@@ -36,14 +36,14 @@
     <circle cx="96" cy="49" r="6" fill="#f0883e"/>
     <circle cx="118" cy="49" r="6" fill="#3fb950"/>
     <text x="150" y="55" font-size="15" fill="#8b949e">shayal@devops</text>
-    <text x="312" y="55" font-size="15" fill="#8b949e">~/platform-engineer</text>
+    <text x="312" y="55" font-size="15" fill="#8b949e">~/build-release</text>
     <text x="540" y="55" font-size="15" fill="#7ee787">$ deploy --prod --zero-downtime</text>
   </g>
 
   <g font-family="monospace, monospace">
     <text x="64" y="152" font-size="44" font-weight="bold" fill="#ffffff">Shayal Vaghasiya</text>
-    <text x="64" y="188" font-size="19" fill="#58a6ff">DevOps Engineer · Cloud · Platform Engineering</text>
-    <text x="64" y="216" font-size="15" fill="#8b949e">automate everything · observe everything · release safely</text>
+    <text x="64" y="188" font-size="19" fill="#58a6ff">DevOps Engineer · Build &amp; Release Automation</text>
+    <text x="64" y="216" font-size="15" fill="#8b949e">automate builds · accelerate releases · keep it green</text>
   </g>
 
   <g font-family="monospace, monospace" font-size="14">
@@ -68,7 +68,7 @@
 
   <g font-family="monospace, monospace">
     <rect x="840" y="108" width="312" height="238" rx="14" fill="#10151d" stroke="#30363d"/>
-    <text x="864" y="144" font-size="16" font-weight="bold" fill="#58a6ff">// platform status</text>
+    <text x="864" y="144" font-size="16" font-weight="bold" fill="#58a6ff">// release dashboard</text>
 
     <circle cx="868" cy="174" r="5" fill="#3fb950"/>
     <text x="884" y="179" font-size="14" fill="#c9d1d9">pipelines</text>
@@ -96,7 +96,7 @@
   </g>
 
   <g font-family="monospace, monospace" font-size="14">
-    <text x="64" y="368" fill="#7ee787">code review</text>
+    <text x="64" y="368" fill="#7ee787">commit</text>
     <text x="180" y="368" fill="#3fb950">→</text>
     <text x="200" y="368" fill="#8b949e">build</text>
     <text x="272" y="368" fill="#3fb950">→</text>
