@@ -1,39 +1,189 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" role="img" aria-label="DevOps skills badges">
-  <defs>
-    <style>
-      .lbl { font: bold 13px 'DejaVu Sans Mono', monospace; fill: #c9d1d9; }
-      .pct { font: bold 12px 'DejaVu Sans Mono', monospace; fill: #8b949e; }
-      .row { font: 13px 'DejaVu Sans Mono', monospace; fill: #e6edf3; }
-    </style>
-  </defs>
-  <text x="40" y="60" font-family="'DejaVu Sans Mono', monospace" font-size="22" font-weight="bold" fill="#58a6ff">// skills matrix</text>
-  <g font-family="'DejaVu Sans Mono', monospace">
-    <text x="40" y="110" class="row">argocd</text>
-    <text x="230" y="110" class="row">gitops</text>
-    <text x="420" y="110" class="row">terraform</text>
-    <text x="638" y="110" class="row">ansible</text>
-    <text x="850" y="110" class="row">docker</text>
-    <text x="1030" y="110" class="row">kubernetes</text>
-    <text x="40" y="170" class="row">jenkins</text>
-    <text x="230" y="170" class="row">github-actions</text>
-    <text x="430" y="170" class="row">linux</text>
-    <text x="620" y="170" class="row">python</text>
-    <text x="820" y="170" class="row">bash</text>
-    <text x="1010" y="170" class="row">grafana</text>
-    <text x="40" y="230" class="row">prometheus</text>
-    <text x="268" y="230" class="row">nginx</text>
-    <text x="455" y="230" class="row">cloud</text>
-    <text x="650" y="230" class="row">postgres</text>
-    <text x="870" y="230" class="row">monitoring</text>
-    <text x="1080" y="230" class="row">design</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Shayal Vaghasiya DevOps skills dashboard">
+  <rect width="1200" height="620" fill="#0d1117"/>
+  <g font-family="monospace, monospace">
+    <text x="48" y="62" font-size="24" font-weight="bold" fill="#58a6ff">// skills matrix</text>
+    <text x="48" y="92" font-size="13" fill="#8b949e">toolbox · hardened in production</text>
   </g>
-  <g font-family="'DejaVu Sans Mono', monospace">
-    <text x="40" y="320" font-size="15" fill="#8b949e">folders / automation /</text>
-    <text x="245" y="320" font-size="15" fill="#3fb950">workflows /</text>
-    <text x="490" y="320" font-size="15" fill="#8b949e">infra /</text>
-    <text x="610" y="320" font-size="15" fill="#3fb950">prod /</text>
-    <text x="710" y="320" font-size="15" fill="#8b949e">monitoring</text>
-    <text x="40" y="390" font-size="17" fill="#7ee787">status ~> healthy.</text>
-    <text x="280" y="390" font-size="13" fill="#8b949e">deploys ~> green</text>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="124" width="10" height="10" rx="2" fill="#7ee787"/>
+      <text x="70" y="134" font-size="14" font-weight="bold" fill="#e6edf3">[ languages ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="156" font-size="12.5" fill="#c9d1d9">Python</text>
+      <rect x="288" y="146" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="146" width="243" height="10" rx="5" fill="#7ee787"/>
+      <text x="570" y="156" font-size="11" fill="#8b949e">90%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="180" font-size="12.5" fill="#c9d1d9">Bash</text>
+      <rect x="288" y="170" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="170" width="229" height="10" rx="5" fill="#7ee787"/>
+      <text x="570" y="180" font-size="11" fill="#8b949e">85%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="204" font-size="12.5" fill="#c9d1d9">SQL</text>
+      <rect x="288" y="194" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="194" width="189" height="10" rx="5" fill="#7ee787"/>
+      <text x="570" y="204" font-size="11" fill="#8b949e">70%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="238" width="10" height="10" rx="2" fill="#f0883e"/>
+      <text x="70" y="248" font-size="14" font-weight="bold" fill="#e6edf3">[ ci/cd ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="270" font-size="12.5" fill="#c9d1d9">Jenkins</text>
+      <rect x="288" y="260" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="260" width="256" height="10" rx="5" fill="#f0883e"/>
+      <text x="570" y="270" font-size="11" fill="#8b949e">95%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="294" font-size="12.5" fill="#c9d1d9">GitHub Actions</text>
+      <rect x="288" y="284" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="284" width="229" height="10" rx="5" fill="#f0883e"/>
+      <text x="570" y="294" font-size="11" fill="#8b949e">85%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="318" font-size="12.5" fill="#c9d1d9">Bitbucket Pipelines</text>
+      <rect x="288" y="308" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="308" width="216" height="10" rx="5" fill="#f0883e"/>
+      <text x="570" y="318" font-size="11" fill="#8b949e">80%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="342" font-size="12.5" fill="#c9d1d9">CloudBees</text>
+      <rect x="288" y="332" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="332" width="194" height="10" rx="5" fill="#f0883e"/>
+      <text x="570" y="342" font-size="11" fill="#8b949e">72%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="376" width="10" height="10" rx="2" fill="#388bfd"/>
+      <text x="70" y="386" font-size="14" font-weight="bold" fill="#e6edf3">[ containers &amp; orchestration ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="408" font-size="12.5" fill="#c9d1d9">Docker</text>
+      <rect x="288" y="398" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="398" width="243" height="10" rx="5" fill="#388bfd"/>
+      <text x="570" y="408" font-size="11" fill="#8b949e">90%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="432" font-size="12.5" fill="#c9d1d9">Kubernetes</text>
+      <rect x="288" y="422" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="422" width="194" height="10" rx="5" fill="#388bfd"/>
+      <text x="570" y="432" font-size="11" fill="#8b949e">72%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="48" y="466" width="10" height="10" rx="2" fill="#a371f7"/>
+      <text x="70" y="476" font-size="14" font-weight="bold" fill="#e6edf3">[ infrastructure as code ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="498" font-size="12.5" fill="#c9d1d9">Terraform</text>
+      <rect x="288" y="488" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="488" width="216" height="10" rx="5" fill="#a371f7"/>
+      <text x="570" y="498" font-size="11" fill="#8b949e">80%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="522" font-size="12.5" fill="#c9d1d9">Ansible</text>
+      <rect x="288" y="512" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="512" width="202" height="10" rx="5" fill="#a371f7"/>
+      <text x="570" y="522" font-size="11" fill="#8b949e">75%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="48" y="546" font-size="12.5" fill="#c9d1d9">Linux</text>
+      <rect x="288" y="536" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="288" y="536" width="229" height="10" rx="5" fill="#a371f7"/>
+      <text x="570" y="546" font-size="11" fill="#8b949e">85%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="620" y="124" width="10" height="10" rx="2" fill="#58a6ff"/>
+      <text x="642" y="134" font-size="14" font-weight="bold" fill="#e6edf3">[ cloud platforms ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="156" font-size="12.5" fill="#c9d1d9">AWS</text>
+      <rect x="860" y="146" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="146" width="216" height="10" rx="5" fill="#58a6ff"/>
+      <text x="1142" y="156" font-size="11" fill="#8b949e">80%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="180" font-size="12.5" fill="#c9d1d9">GCP</text>
+      <rect x="860" y="170" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="170" width="189" height="10" rx="5" fill="#58a6ff"/>
+      <text x="1142" y="180" font-size="11" fill="#8b949e">70%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="620" y="214" width="10" height="10" rx="2" fill="#f46800"/>
+      <text x="642" y="224" font-size="14" font-weight="bold" fill="#e6edf3">[ observability ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="246" font-size="12.5" fill="#c9d1d9">Grafana</text>
+      <rect x="860" y="236" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="236" width="243" height="10" rx="5" fill="#f46800"/>
+      <text x="1142" y="246" font-size="11" fill="#8b949e">90%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="270" font-size="12.5" fill="#c9d1d9">Prometheus</text>
+      <rect x="860" y="260" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="260" width="216" height="10" rx="5" fill="#f46800"/>
+      <text x="1142" y="270" font-size="11" fill="#8b949e">80%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="294" font-size="12.5" fill="#c9d1d9">Telegraf</text>
+      <rect x="860" y="284" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="284" width="202" height="10" rx="5" fill="#f46800"/>
+      <text x="1142" y="294" font-size="11" fill="#8b949e">75%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="318" font-size="12.5" fill="#c9d1d9">CloudWatch</text>
+      <rect x="860" y="308" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="308" width="194" height="10" rx="5" fill="#f46800"/>
+      <text x="1142" y="318" font-size="11" fill="#8b949e">72%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="620" y="352" width="10" height="10" rx="2" fill="#f85149"/>
+      <text x="642" y="362" font-size="14" font-weight="bold" fill="#e6edf3">[ security scanning ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="384" font-size="12.5" fill="#c9d1d9">Coverity</text>
+      <rect x="860" y="374" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="374" width="210" height="10" rx="5" fill="#f85149"/>
+      <text x="1142" y="384" font-size="11" fill="#8b949e">78%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="408" font-size="12.5" fill="#c9d1d9">Black Duck</text>
+      <rect x="860" y="398" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="398" width="216" height="10" rx="5" fill="#f85149"/>
+      <text x="1142" y="408" font-size="11" fill="#8b949e">80%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="432" font-size="12.5" fill="#c9d1d9">SonarQube</text>
+      <rect x="860" y="422" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="422" width="175" height="10" rx="5" fill="#f85149"/>
+      <text x="1142" y="432" font-size="11" fill="#8b949e">65%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <rect x="620" y="466" width="10" height="10" rx="2" fill="#d29922"/>
+      <text x="642" y="476" font-size="14" font-weight="bold" fill="#e6edf3">[ databases ]</text>
+</g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="498" font-size="12.5" fill="#c9d1d9">PostgreSQL</text>
+      <rect x="860" y="488" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="488" width="216" height="10" rx="5" fill="#d29922"/>
+      <text x="1142" y="498" font-size="11" fill="#8b949e">80%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="522" font-size="12.5" fill="#c9d1d9">MySQL</text>
+      <rect x="860" y="512" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="512" width="202" height="10" rx="5" fill="#d29922"/>
+      <text x="1142" y="522" font-size="11" fill="#8b949e">75%</text>
+    </g>
+    <g font-family="monospace, monospace">
+      <text x="620" y="546" font-size="12.5" fill="#c9d1d9">MongoDB</text>
+      <rect x="860" y="536" width="270" height="10" rx="5" fill="#21262d"/>
+      <rect x="860" y="536" width="175" height="10" rx="5" fill="#d29922"/>
+      <text x="1142" y="546" font-size="11" fill="#8b949e">65%</text>
+    </g>
+  <g font-family="monospace, monospace" font-size="14">
+    <text x="48" y="596" fill="#7ee787">ci/cd ~&gt; green ·</text>
+    <text x="205" y="596" fill="#8b949e">infra ~&gt; as code ·</text>
+    <text x="350" y="596" fill="#8b949e">observability ~&gt; always on ·</text>
+    <text x="560" y="596" fill="#8b949e">security ~&gt; scanned</text>
   </g>
 </svg>
