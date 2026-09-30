@@ -1,112 +1,156 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Shayal Vaghasiya - DevOps Engineer dashboard banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Shayal Vaghasiya — DevOps Engineer hero banner">
   <defs>
     <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#0f1a2e"/>
+      <stop offset="0.55" stop-color="#0d1521"/>
+      <stop offset="1" stop-color="#12101c"/>
     </linearGradient>
-    <linearGradient id="hline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="0.30" stop-color="#58a6ff"/>
-      <stop offset="0.65" stop-color="#3fb950"/>
+    <radialGradient id="hglow1" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#ff9f43" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ff9f43" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hglow2" cx="0.05" cy="0.95" r="0.55">
+      <stop offset="0" stop-color="#a371f7" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#a371f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="haccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9f43"/>
+      <stop offset="1" stop-color="#fc6d26"/>
+    </linearGradient>
+    <linearGradient id="hrail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#3fb950"/>
+      <stop offset="0.78" stop-color="#3fb950"/>
       <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#161b22"/>
-      <stop offset="1" stop-color="#10151d"/>
-    </linearGradient>
+    <filter id="hsh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
   </defs>
 
   <rect width="1200" height="400" fill="url(#hbg)"/>
+  <rect width="1200" height="400" fill="url(#hglow1)"/>
+  <rect width="1200" height="400" fill="url(#hglow2)"/>
+  <rect y="392" width="1200" height="8" fill="url(#hrail)" rx="4"/>
 
-  <g stroke="#21262d" stroke-opacity="0.5" stroke-width="1">
-    <line x1="0" y1="100" x2="1200" y2="100"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-    <line x1="200" y1="0" x2="200" y2="400"/>
-    <line x1="400" y1="0" x2="400" y2="400"/>
-    <line x1="600" y1="0" x2="600" y2="400"/>
-    <line x1="800" y1="0" x2="800" y2="400"/>
-    <line x1="1000" y1="0" x2="1000" y2="400"/>
-  </g>
-  <rect y="0" width="1200" height="3" fill="url(#hline)"/>
-
-  <g font-family="monospace, monospace">
-    <rect x="48" y="28" width="1104" height="42" rx="10" fill="#161b22" stroke="#30363d"/>
-    <circle cx="74" cy="49" r="6" fill="#f85149"/>
-    <circle cx="96" cy="49" r="6" fill="#f0883e"/>
-    <circle cx="118" cy="49" r="6" fill="#3fb950"/>
-    <text x="150" y="55" font-size="15" fill="#8b949e">shayal@devops</text>
-    <text x="312" y="55" font-size="15" fill="#8b949e">~/build-release</text>
-    <text x="540" y="55" font-size="15" fill="#7ee787">$ deploy --prod --zero-downtime</text>
+  <!-- window chrome bar -->
+  <g>
+    <rect x="24" y="22" width="1152" height="38" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="48" cy="41" r="5.5" fill="#f85149"/>
+    <circle cx="68" cy="41" r="5.5" fill="#ffd766"/>
+    <circle cx="88" cy="41" r="5.5" fill="#3fb950"/>
+    <text x="116" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#8b949e">shayal@devops · ~/build-release</text>
+    <text x="1144" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#3fb950" text-anchor="end">● ALL SYSTEMS OPERATIONAL</text>
   </g>
 
-  <g font-family="monospace, monospace">
-    <text x="64" y="152" font-size="44" font-weight="bold" fill="#ffffff">Shayal Vaghasiya</text>
-    <text x="64" y="188" font-size="19" fill="#58a6ff">DevOps Engineer · Build &amp; Release Automation</text>
-    <text x="64" y="216" font-size="15" fill="#8b949e">automate builds · accelerate releases · keep it green</text>
+  <!-- left identity block -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- status pill -->
+    <rect x="44" y="96" width="236" height="27" rx="13.5" fill="#161b22" stroke="#3fb950" stroke-opacity="0.5"/>
+    <circle cx="66" cy="109.5" r="4" fill="#3fb950"/>
+    <text x="80" y="114" font-size="12.5" font-weight="600" fill="#3fb950">OPEN TO DEVOPS ROLES</text>
+
+    <text x="42" y="178" font-size="48" font-weight="800" letter-spacing="-1" fill="#f0f6fc">Shayal Vaghasiya</text>
+    <text x="44" y="220" font-size="20" font-weight="600" fill="url(#haccent)">DevOps Engineer · Build &amp; Release Automation</text>
+    <text x="44" y="248" font-size="15" fill="#8b949e">shipping software faster, safer, and fully observable.</text>
   </g>
 
-  <g font-family="monospace, monospace" font-size="14">
-    <rect x="64" y="242" width="96" height="32" rx="16" fill="url(#chip)" stroke="#58a6ff"/>
-    <text x="82" y="263" fill="#58a6ff" font-weight="bold">AWS</text>
-    <rect x="172" y="242" width="96" height="32" rx="16" fill="url(#chip)" stroke="#4285F4"/>
-    <text x="190" y="263" fill="#4285F4" font-weight="bold">GCP</text>
-    <rect x="280" y="242" width="150" height="32" rx="16" fill="url(#chip)" stroke="#a371f7"/>
-    <text x="298" y="263" fill="#a371f7" font-weight="bold">Terraform</text>
-    <rect x="442" y="242" width="118" height="32" rx="16" fill="url(#chip)" stroke="#388bfd"/>
-    <text x="460" y="263" fill="#388bfd" font-weight="bold">Docker</text>
+  <!-- skill chips -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="44" y="276" width="104" height="30" rx="15" fill="#161b22" stroke="#ff9f43" stroke-opacity="0.55"/>
+    <text x="96" y="295" font-size="13" font-weight="700" fill="#ff9f43" text-anchor="middle">AWS</text>
 
-    <rect x="64" y="290" width="130" height="32" rx="16" fill="url(#chip)" stroke="#d29922"/>
-    <text x="82" y="311" fill="#d29922" font-weight="bold">Jenkins</text>
-    <rect x="206" y="290" width="196" height="32" rx="16" fill="url(#chip)" stroke="#3fb950"/>
-    <text x="224" y="311" fill="#3fb950" font-weight="bold">GitHub Actions</text>
-    <rect x="414" y="290" width="128" height="32" rx="16" fill="url(#chip)" stroke="#f46800"/>
-    <text x="432" y="311" fill="#f46800" font-weight="bold">Grafana</text>
+    <rect x="158" y="276" width="104" height="30" rx="15" fill="#161b22" stroke="#a371f7" stroke-opacity="0.55"/>
+    <text x="210" y="295" font-size="13" font-weight="700" fill="#a371f7" text-anchor="middle">GCP</text>
+
+    <rect x="272" y="276" width="142" height="30" rx="15" fill="#161b22" stroke="#79c0ff" stroke-opacity="0.55"/>
+    <text x="343" y="295" font-size="13" font-weight="700" fill="#79c0ff" text-anchor="middle">Terraform</text>
+
+    <rect x="424" y="276" width="118" height="30" rx="15" fill="#161b22" stroke="#ff9f43" stroke-opacity="0.55"/>
+    <text x="483" y="295" font-size="13" font-weight="700" fill="#ff9f43" text-anchor="middle">Docker</text>
+
+    <rect x="552" y="276" width="126" height="30" rx="15" fill="#161b22" stroke="#ff7b72" stroke-opacity="0.55"/>
+    <text x="615" y="295" font-size="13" font-weight="700" fill="#ff7b72" text-anchor="middle">Jenkins</text>
+
+    <rect x="688" y="276" width="186" height="30" rx="15" fill="#161b22" stroke="#3fb950" stroke-opacity="0.55"/>
+    <text x="781" y="295" font-size="13" font-weight="700" fill="#3fb950" text-anchor="middle">GitHub Actions</text>
   </g>
 
-  <g font-family="monospace, monospace">
-    <rect x="840" y="108" width="312" height="238" rx="14" fill="#10151d" stroke="#30363d"/>
-    <text x="864" y="144" font-size="16" font-weight="bold" fill="#58a6ff">// release dashboard</text>
+  <!-- release health card -->
+  <g filter="url(#hsh)">
+    <rect x="760" y="96" width="392" height="226" rx="16" fill="#121720" stroke="#30363d"/>
+    <rect x="760" y="96" width="392" height="6" rx="3" fill="url(#haccent)" opacity="0.85"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <circle cx="786" cy="129" r="4" fill="#ff9f43"/>
+    <text x="800" y="134" font-size="15" font-weight="700" fill="#e6edf3">RELEASE HEALTH</text>
+    <text x="1124" y="134" font-size="12" fill="#8b949e" text-anchor="end">live · always</text>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14">
+    <circle cx="788" cy="168" r="3.5" fill="#3fb950"/>
+    <text x="806" y="173" fill="#8b949e">pipelines</text>
+    <text x="1128" y="173" fill="#7ee787" font-weight="700" text-anchor="end">PASSING ✓</text>
 
-    <circle cx="868" cy="174" r="5" fill="#3fb950"/>
-    <text x="884" y="179" font-size="14" fill="#c9d1d9">pipelines</text>
-    <text x="1040" y="179" font-size="14" fill="#7ee787">PASSING</text>
+    <circle cx="788" cy="196" r="3.5" fill="#ff9f43"/>
+    <text x="806" y="201" fill="#8b949e">release cycle</text>
+    <text x="1128" y="201" fill="#ffd766" font-weight="700" text-anchor="end">−30%</text>
 
-    <circle cx="868" cy="202" r="5" fill="#f0883e"/>
-    <text x="884" y="207" font-size="14" fill="#c9d1d9">release cycle</text>
-    <text x="1040" y="207" font-size="14" fill="#ffd76e">-30% TIME</text>
+    <circle cx="788" cy="224" r="3.5" fill="#a371f7"/>
+    <text x="806" y="229" fill="#8b949e">jenkins jobs</text>
+    <text x="1128" y="229" fill="#d2a8ff" font-weight="700" text-anchor="end">100+</text>
 
-    <circle cx="868" cy="230" r="5" fill="#a371f7"/>
-    <text x="884" y="235" font-size="14" fill="#c9d1d9">jenkins jobs</text>
-    <text x="1040" y="235" font-size="14" fill="#a371f7">100+</text>
+    <circle cx="788" cy="252" r="3.5" fill="#39c5cf"/>
+    <text x="806" y="257" fill="#8b949e">infra drift</text>
+    <text x="1128" y="257" fill="#7ee787" font-weight="700" text-anchor="end">0</text>
 
-    <circle cx="868" cy="258" r="5" fill="#58a6ff"/>
-    <text x="884" y="263" font-size="14" fill="#c9d1d9">infra drift</text>
-    <text x="1040" y="263" font-size="14" fill="#58a6ff">0</text>
+    <circle cx="788" cy="280" r="3.5" fill="#3fb950"/>
+    <text x="806" y="285" fill="#8b949e">uptime</text>
+    <text x="1128" y="285" fill="#7ee787" font-weight="700" text-anchor="end">99.99%</text>
 
-    <circle cx="868" cy="286" r="5" fill="#3fb950"/>
-    <text x="884" y="291" font-size="14" fill="#c9d1d9">uptime</text>
-    <text x="1040" y="291" font-size="14" fill="#7ee787">99.99%</text>
-
-    <circle cx="868" cy="314" r="5" fill="#f85149"/>
-    <text x="884" y="319" font-size="14" fill="#c9d1d9">incidents</text>
-    <text x="1040" y="319" font-size="14" fill="#f85149">MITIGATED</text>
+    <circle cx="788" cy="308" r="3.5" fill="#3fb950"/>
+    <text x="806" y="313" fill="#8b949e">incidents</text>
+    <text x="1128" y="313" fill="#7ee787" font-weight="700" text-anchor="end">MITIGATED</text>
   </g>
 
-  <g font-family="monospace, monospace" font-size="14">
-    <text x="64" y="368" fill="#7ee787">commit</text>
-    <text x="180" y="368" fill="#3fb950">→</text>
-    <text x="200" y="368" fill="#8b949e">build</text>
-    <text x="272" y="368" fill="#3fb950">→</text>
-    <text x="292" y="368" fill="#8b949e">security scan</text>
-    <text x="432" y="368" fill="#3fb950">→</text>
-    <text x="452" y="368" fill="#8b949e">test</text>
-    <text x="520" y="368" fill="#3fb950">→</text>
-    <text x="540" y="368" fill="#8b949e">package</text>
-    <text x="636" y="368" fill="#3fb950">→</text>
-    <text x="656" y="368" fill="#8b949e">deploy</text>
-    <text x="738" y="368" fill="#3fb950">→</text>
-    <text x="758" y="368" fill="#8b949e">verify</text>
-    <text x="836" y="368" fill="#7ee787">● 100% green</text>
+  <!-- pipeline rail footer -->
+  <g>
+    <rect x="44" y="344" width="900" height="36" rx="18" fill="#161b22" stroke="#30363d"/>
   </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="600">
+    <g>
+      <rect x="62" y="351" width="74" height="22" rx="7" fill="#2ea043" fill-opacity="0.18" stroke="#3fb950" stroke-opacity="0.6"/>
+      <text x="99" y="366" fill="#7ee787" text-anchor="middle">commit</text>
+    </g>
+    <g>
+      <rect x="150" y="351" width="74" height="22" rx="7" fill="#2ea043" fill-opacity="0.18" stroke="#3fb950" stroke-opacity="0.6"/>
+      <text x="187" y="366" fill="#7ee787" text-anchor="middle">build</text>
+    </g>
+    <g>
+      <rect x="238" y="351" width="100" height="22" rx="7" fill="#2ea043" fill-opacity="0.18" stroke="#3fb950" stroke-opacity="0.6"/>
+      <text x="288" y="366" fill="#7ee787" text-anchor="middle">security</text>
+    </g>
+    <g>
+      <rect x="352" y="351" width="74" height="22" rx="7" fill="#2ea043" fill-opacity="0.18" stroke="#3fb950" stroke-opacity="0.6"/>
+      <text x="389" y="366" fill="#7ee787" text-anchor="middle">test</text>
+    </g>
+    <g>
+      <rect x="440" y="351" width="86" height="22" rx="7" fill="#2ea043" fill-opacity="0.18" stroke="#3fb950" stroke-opacity="0.6"/>
+      <text x="483" y="366" fill="#7ee787" text-anchor="middle">package</text>
+    </g>
+    <text x="530" y="366" fill="#30363d" text-anchor="middle">›</text>
+    <g>
+      <rect x="546" y="351" width="86" height="22" rx="7" fill="#ff9f43" fill-opacity="0.16" stroke="#ff9f43" stroke-opacity="0.7"/>
+      <text x="589" y="366" fill="#ffd0a0" text-anchor="middle">deploy</text>
+    </g>
+    <g>
+      <rect x="646" y="351" width="74" height="22" rx="7" fill="#ff9f43" fill-opacity="0.16" stroke="#ff9f43" stroke-opacity="0.7"/>
+      <text x="683" y="366" fill="#ffd0a0" text-anchor="middle">verify</text>
+    </g>
+    <text x="736" y="366" fill="#30363d" text-anchor="middle">›</text>
+    <text x="790" y="366" fill="#7ee787">● 100% green</text>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="972" y="366" font-size="12.5" fill="#8b949e">zero-downtime release path</text>
+  </g>
+  <text x="1140" y="366" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#a371f7" text-anchor="end">v2.4 · ci</text>
 </svg>

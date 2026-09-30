@@ -1,174 +1,257 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-label="Shayal Vaghasiya tech stack">
-  <rect width="1200" height="670" fill="#0d1117"/>
-  <g font-family="monospace, monospace">
-    <text x="48" y="60" font-size="24" font-weight="bold" fill="#58a6ff">// tech stack</text>
-    <text x="48" y="90" font-size="13" fill="#8b949e">tools used in production build &amp; release workflows</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="812" viewBox="0 0 1200 812" role="img" aria-label="Shayal Vaghasiya tech stack">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1521"/>
+    </linearGradient>
+    <linearGradient id="saccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9f43"/>
+      <stop offset="1" stop-color="#fc6d26"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="812" fill="url(#sbg)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <circle cx="44" cy="34" r="4" fill="#ff9f43"/>
+    <text x="60" y="39" font-size="16" font-weight="700" fill="#e6edf3">TECH STACK</text>
+    <text x="177" y="39" font-size="13" fill="#8b949e">what runs in production, grouped by layer</text>
+    <text x="1156" y="39" font-size="12" fill="#a371f7" text-anchor="end">9 layers · 24 tools</text>
   </g>
-    <g font-family="monospace, monospace">
-      <rect x="48" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="62" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
-      <text x="83" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">Py</text>
-      <text x="120" y="152" font-size="15" font-weight="bold" fill="#e6edf3">Python</text>
-      <text x="120" y="170" font-size="11" fill="#8b949e">languages</text>
+<rect x="44" y="122" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="133" width="34" height="34" rx="9" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.5"/>
+<text x="77" y="155" font-size="14" font-weight="800" fill="#3fb950" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">01</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="146" font-size="15" font-weight="700" fill="#e6edf3">Languages</text>
+    <line x1="324" y1="136" x2="324" y2="164" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="132" width="92" height="34" rx="8" fill="#181f27" stroke="#3fb950" stroke-opacity="0.45"/>
+    <rect x="352" y="139" width="20" height="20" rx="5" fill="#3fb950" fill-opacity="0.16"/>
+    <text x="362" y="153" font-size="10.5" font-weight="700" fill="#3fb950" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Py</text>
+    <text x="382" y="154" font-size="12.5" font-weight="600" fill="#dbe4ee">Python</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="326" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="340" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
-      <text x="361" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">sh</text>
-      <text x="398" y="152" font-size="15" font-weight="bold" fill="#e6edf3">Bash</text>
-      <text x="398" y="170" font-size="11" fill="#8b949e">languages</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="450" y="132" width="82" height="34" rx="8" fill="#181f27" stroke="#3fb950" stroke-opacity="0.45"/>
+    <rect x="458" y="139" width="20" height="20" rx="5" fill="#3fb950" fill-opacity="0.16"/>
+    <text x="468" y="153" font-size="10.5" font-weight="700" fill="#3fb950" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">sh</text>
+    <text x="488" y="154" font-size="12.5" font-weight="600" fill="#dbe4ee">Bash</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="604" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="618" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
-      <text x="639" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">S</text>
-      <text x="676" y="152" font-size="15" font-weight="bold" fill="#e6edf3">SQL</text>
-      <text x="676" y="170" font-size="11" fill="#8b949e">languages</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="546" y="132" width="76" height="34" rx="8" fill="#181f27" stroke="#3fb950" stroke-opacity="0.45"/>
+    <rect x="554" y="139" width="20" height="20" rx="5" fill="#3fb950" fill-opacity="0.16"/>
+    <text x="564" y="153" font-size="10.5" font-weight="700" fill="#3fb950" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">SQL</text>
+    <text x="584" y="154" font-size="12.5" font-weight="600" fill="#dbe4ee">SQL</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="882" y="118" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="896" y="134" width="42" height="42" rx="9" fill="#7ee787" fill-opacity="0.12" stroke="#7ee787"/>
-      <text x="917" y="162" font-size="15" font-weight="bold" fill="#7ee787" text-anchor="middle">Lx</text>
-      <text x="954" y="152" font-size="15" font-weight="bold" fill="#e6edf3">Linux</text>
-      <text x="954" y="170" font-size="11" fill="#8b949e">languages</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="636" y="132" width="88" height="34" rx="8" fill="#181f27" stroke="#3fb950" stroke-opacity="0.45"/>
+    <rect x="644" y="139" width="20" height="20" rx="5" fill="#3fb950" fill-opacity="0.16"/>
+    <text x="654" y="153" font-size="10.5" font-weight="700" fill="#3fb950" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Lx</text>
+    <text x="674" y="154" font-size="12.5" font-weight="600" fill="#dbe4ee">Linux</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="48" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="62" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
-      <text x="83" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">J</text>
-      <text x="120" y="242" font-size="15" font-weight="bold" fill="#e6edf3">Jenkins</text>
-      <text x="120" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+<rect x="44" y="194" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="205" width="34" height="34" rx="9" fill="#79c0ff" fill-opacity="0.14" stroke="#79c0ff" stroke-opacity="0.5"/>
+<text x="77" y="227" font-size="14" font-weight="800" fill="#79c0ff" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">02</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="218" font-size="15" font-weight="700" fill="#e6edf3">Source &amp; Version Control</text>
+    <line x1="324" y1="208" x2="324" y2="236" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="204" width="78" height="34" rx="8" fill="#181f27" stroke="#79c0ff" stroke-opacity="0.45"/>
+    <rect x="352" y="211" width="20" height="20" rx="5" fill="#79c0ff" fill-opacity="0.16"/>
+    <text x="362" y="225" font-size="10.5" font-weight="700" fill="#79c0ff" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">G</text>
+    <text x="382" y="226" font-size="12.5" font-weight="600" fill="#dbe4ee">Git</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="326" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="340" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
-      <text x="361" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">GH</text>
-      <text x="398" y="242" font-size="15" font-weight="bold" fill="#e6edf3">GitHub Actions</text>
-      <text x="398" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="436" y="204" width="100" height="34" rx="8" fill="#181f27" stroke="#79c0ff" stroke-opacity="0.45"/>
+    <rect x="444" y="211" width="20" height="20" rx="5" fill="#79c0ff" fill-opacity="0.16"/>
+    <text x="454" y="225" font-size="10.5" font-weight="700" fill="#79c0ff" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">GH</text>
+    <text x="474" y="226" font-size="12.5" font-weight="600" fill="#dbe4ee">GitHub</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="604" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="618" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
-      <text x="639" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">BB</text>
-      <text x="676" y="242" font-size="15" font-weight="bold" fill="#e6edf3">Bitbucket</text>
-      <text x="676" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="550" y="204" width="122" height="34" rx="8" fill="#181f27" stroke="#79c0ff" stroke-opacity="0.45"/>
+    <rect x="558" y="211" width="20" height="20" rx="5" fill="#79c0ff" fill-opacity="0.16"/>
+    <text x="568" y="225" font-size="10.5" font-weight="700" fill="#79c0ff" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">BB</text>
+    <text x="588" y="226" font-size="12.5" font-weight="600" fill="#dbe4ee">Bitbucket</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="882" y="208" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="896" y="224" width="42" height="42" rx="9" fill="#f0883e" fill-opacity="0.12" stroke="#f0883e"/>
-      <text x="917" y="252" font-size="15" font-weight="bold" fill="#f0883e" text-anchor="middle">G</text>
-      <text x="954" y="242" font-size="15" font-weight="bold" fill="#e6edf3">Git</text>
-      <text x="954" y="260" font-size="11" fill="#8b949e">ci/cd</text>
+<rect x="44" y="266" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="277" width="34" height="34" rx="9" fill="#ff9f43" fill-opacity="0.14" stroke="#ff9f43" stroke-opacity="0.5"/>
+<text x="77" y="299" font-size="14" font-weight="800" fill="#ff9f43" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">03</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="290" font-size="15" font-weight="700" fill="#e6edf3">CI/CD</text>
+    <line x1="324" y1="280" x2="324" y2="308" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="276" width="106" height="34" rx="8" fill="#181f27" stroke="#ff9f43" stroke-opacity="0.45"/>
+    <rect x="352" y="283" width="20" height="20" rx="5" fill="#ff9f43" fill-opacity="0.16"/>
+    <text x="362" y="297" font-size="10.5" font-weight="700" fill="#ff9f43" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">J</text>
+    <text x="382" y="298" font-size="12.5" font-weight="600" fill="#dbe4ee">Jenkins</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="48" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="62" y="314" width="42" height="42" rx="9" fill="#388bfd" fill-opacity="0.12" stroke="#388bfd"/>
-      <text x="83" y="342" font-size="15" font-weight="bold" fill="#388bfd" text-anchor="middle">D</text>
-      <text x="120" y="332" font-size="15" font-weight="bold" fill="#e6edf3">Docker</text>
-      <text x="120" y="350" font-size="11" fill="#8b949e">containers</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="464" y="276" width="158" height="34" rx="8" fill="#181f27" stroke="#ff9f43" stroke-opacity="0.45"/>
+    <rect x="472" y="283" width="20" height="20" rx="5" fill="#ff9f43" fill-opacity="0.16"/>
+    <text x="482" y="297" font-size="10.5" font-weight="700" fill="#ff9f43" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A</text>
+    <text x="502" y="298" font-size="12.5" font-weight="600" fill="#dbe4ee">GitHub Actions</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="326" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="340" y="314" width="42" height="42" rx="9" fill="#388bfd" fill-opacity="0.12" stroke="#388bfd"/>
-      <text x="361" y="342" font-size="15" font-weight="bold" fill="#388bfd" text-anchor="middle">N</text>
-      <text x="398" y="332" font-size="15" font-weight="bold" fill="#e6edf3">Nginx</text>
-      <text x="398" y="350" font-size="11" fill="#8b949e">containers</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="636" y="276" width="180" height="34" rx="8" fill="#181f27" stroke="#ff9f43" stroke-opacity="0.45"/>
+    <rect x="644" y="283" width="20" height="20" rx="5" fill="#ff9f43" fill-opacity="0.16"/>
+    <text x="654" y="297" font-size="10.5" font-weight="700" fill="#ff9f43" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">BP</text>
+    <text x="674" y="298" font-size="12.5" font-weight="600" fill="#dbe4ee">Bitbucket Pipelines</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="604" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="618" y="314" width="42" height="42" rx="9" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7"/>
-      <text x="639" y="342" font-size="15" font-weight="bold" fill="#a371f7" text-anchor="middle">Tf</text>
-      <text x="676" y="332" font-size="15" font-weight="bold" fill="#e6edf3">Terraform</text>
-      <text x="676" y="350" font-size="11" fill="#8b949e">iac</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="830" y="276" width="120" height="34" rx="8" fill="#181f27" stroke="#ff9f43" stroke-opacity="0.45"/>
+    <rect x="838" y="283" width="20" height="20" rx="5" fill="#ff9f43" fill-opacity="0.16"/>
+    <text x="848" y="297" font-size="10.5" font-weight="700" fill="#ff9f43" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">CB</text>
+    <text x="868" y="298" font-size="12.5" font-weight="600" fill="#dbe4ee">CloudBees</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="882" y="298" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="896" y="314" width="42" height="42" rx="9" fill="#58a6ff" fill-opacity="0.12" stroke="#58a6ff"/>
-      <text x="917" y="342" font-size="15" font-weight="bold" fill="#58a6ff" text-anchor="middle">A</text>
-      <text x="954" y="332" font-size="15" font-weight="bold" fill="#e6edf3">AWS</text>
-      <text x="954" y="350" font-size="11" fill="#8b949e">cloud</text>
+<rect x="44" y="338" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="349" width="34" height="34" rx="9" fill="#39c5cf" fill-opacity="0.14" stroke="#39c5cf" stroke-opacity="0.5"/>
+<text x="77" y="371" font-size="14" font-weight="800" fill="#39c5cf" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">04</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="362" font-size="15" font-weight="700" fill="#e6edf3">Containers &amp; Runtime</text>
+    <line x1="324" y1="352" x2="324" y2="380" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="348" width="98" height="34" rx="8" fill="#181f27" stroke="#39c5cf" stroke-opacity="0.45"/>
+    <rect x="352" y="355" width="20" height="20" rx="5" fill="#39c5cf" fill-opacity="0.16"/>
+    <text x="362" y="369" font-size="10.5" font-weight="700" fill="#39c5cf" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">D</text>
+    <text x="382" y="370" font-size="12.5" font-weight="600" fill="#dbe4ee">Docker</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="48" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="62" y="404" width="42" height="42" rx="9" fill="#58a6ff" fill-opacity="0.12" stroke="#58a6ff"/>
-      <text x="83" y="432" font-size="15" font-weight="bold" fill="#58a6ff" text-anchor="middle">G</text>
-      <text x="120" y="422" font-size="15" font-weight="bold" fill="#e6edf3">GCP</text>
-      <text x="120" y="440" font-size="11" fill="#8b949e">cloud</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="456" y="348" width="128" height="34" rx="8" fill="#181f27" stroke="#39c5cf" stroke-opacity="0.45"/>
+    <rect x="464" y="355" width="20" height="20" rx="5" fill="#39c5cf" fill-opacity="0.16"/>
+    <text x="474" y="369" font-size="10.5" font-weight="700" fill="#39c5cf" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">K</text>
+    <text x="494" y="370" font-size="12.5" font-weight="600" fill="#dbe4ee">Kubernetes</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="326" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="340" y="404" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
-      <text x="361" y="432" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">Gf</text>
-      <text x="398" y="422" font-size="15" font-weight="bold" fill="#e6edf3">Grafana</text>
-      <text x="398" y="440" font-size="11" fill="#8b949e">observability</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="598" y="348" width="90" height="34" rx="8" fill="#181f27" stroke="#39c5cf" stroke-opacity="0.45"/>
+    <rect x="606" y="355" width="20" height="20" rx="5" fill="#39c5cf" fill-opacity="0.16"/>
+    <text x="616" y="369" font-size="10.5" font-weight="700" fill="#39c5cf" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">N</text>
+    <text x="636" y="370" font-size="12.5" font-weight="600" fill="#dbe4ee">Nginx</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="604" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="618" y="404" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
-      <text x="639" y="432" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">P</text>
-      <text x="676" y="422" font-size="15" font-weight="bold" fill="#e6edf3">Prometheus</text>
-      <text x="676" y="440" font-size="11" fill="#8b949e">observability</text>
+<rect x="44" y="410" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="421" width="34" height="34" rx="9" fill="#a371f7" fill-opacity="0.14" stroke="#a371f7" stroke-opacity="0.5"/>
+<text x="77" y="443" font-size="14" font-weight="800" fill="#a371f7" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">05</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="434" font-size="15" font-weight="700" fill="#e6edf3">Infrastructure as Code</text>
+    <line x1="324" y1="424" x2="324" y2="452" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="420" width="122" height="34" rx="8" fill="#181f27" stroke="#a371f7" stroke-opacity="0.45"/>
+    <rect x="352" y="427" width="20" height="20" rx="5" fill="#a371f7" fill-opacity="0.16"/>
+    <text x="362" y="441" font-size="10.5" font-weight="700" fill="#a371f7" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Tf</text>
+    <text x="382" y="442" font-size="12.5" font-weight="600" fill="#dbe4ee">Terraform</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="882" y="388" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="896" y="404" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
-      <text x="917" y="432" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">Tg</text>
-      <text x="954" y="422" font-size="15" font-weight="bold" fill="#e6edf3">Telegraf</text>
-      <text x="954" y="440" font-size="11" fill="#8b949e">observability</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="480" y="420" width="106" height="34" rx="8" fill="#181f27" stroke="#a371f7" stroke-opacity="0.45"/>
+    <rect x="488" y="427" width="20" height="20" rx="5" fill="#a371f7" fill-opacity="0.16"/>
+    <text x="498" y="441" font-size="10.5" font-weight="700" fill="#a371f7" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">An</text>
+    <text x="518" y="442" font-size="12.5" font-weight="600" fill="#dbe4ee">Ansible</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="48" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="62" y="494" width="42" height="42" rx="9" fill="#f46800" fill-opacity="0.12" stroke="#f46800"/>
-      <text x="83" y="522" font-size="15" font-weight="bold" fill="#f46800" text-anchor="middle">Cw</text>
-      <text x="120" y="512" font-size="15" font-weight="bold" fill="#e6edf3">CloudWatch</text>
-      <text x="120" y="530" font-size="11" fill="#8b949e">observability</text>
+<rect x="44" y="482" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="493" width="34" height="34" rx="9" fill="#e3b341" fill-opacity="0.14" stroke="#e3b341" stroke-opacity="0.5"/>
+<text x="77" y="515" font-size="14" font-weight="800" fill="#e3b341" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">06</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="506" font-size="15" font-weight="700" fill="#e6edf3">Cloud Platforms</text>
+    <line x1="324" y1="496" x2="324" y2="524" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="492" width="80" height="34" rx="8" fill="#181f27" stroke="#e3b341" stroke-opacity="0.45"/>
+    <rect x="352" y="499" width="20" height="20" rx="5" fill="#e3b341" fill-opacity="0.16"/>
+    <text x="362" y="513" font-size="10.5" font-weight="700" fill="#e3b341" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">aws</text>
+    <text x="382" y="514" font-size="12.5" font-weight="600" fill="#dbe4ee">AWS</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="326" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="340" y="494" width="42" height="42" rx="9" fill="#f85149" fill-opacity="0.12" stroke="#f85149"/>
-      <text x="361" y="522" font-size="15" font-weight="bold" fill="#f85149" text-anchor="middle">Cv</text>
-      <text x="398" y="512" font-size="15" font-weight="bold" fill="#e6edf3">Coverity</text>
-      <text x="398" y="530" font-size="11" fill="#8b949e">security</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="438" y="492" width="80" height="34" rx="8" fill="#181f27" stroke="#e3b341" stroke-opacity="0.45"/>
+    <rect x="446" y="499" width="20" height="20" rx="5" fill="#e3b341" fill-opacity="0.16"/>
+    <text x="456" y="513" font-size="10.5" font-weight="700" fill="#e3b341" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">gcp</text>
+    <text x="476" y="514" font-size="12.5" font-weight="600" fill="#dbe4ee">GCP</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="604" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="618" y="494" width="42" height="42" rx="9" fill="#f85149" fill-opacity="0.12" stroke="#f85149"/>
-      <text x="639" y="522" font-size="15" font-weight="bold" fill="#f85149" text-anchor="middle">BD</text>
-      <text x="676" y="512" font-size="15" font-weight="bold" fill="#e6edf3">Black Duck</text>
-      <text x="676" y="530" font-size="11" fill="#8b949e">security</text>
+<rect x="44" y="554" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="565" width="34" height="34" rx="9" fill="#ff7b72" fill-opacity="0.14" stroke="#ff7b72" stroke-opacity="0.5"/>
+<text x="77" y="587" font-size="14" font-weight="800" fill="#ff7b72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">07</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="578" font-size="15" font-weight="700" fill="#e6edf3">Observability</text>
+    <line x1="324" y1="568" x2="324" y2="596" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="564" width="108" height="34" rx="8" fill="#181f27" stroke="#ff7b72" stroke-opacity="0.45"/>
+    <rect x="352" y="571" width="20" height="20" rx="5" fill="#ff7b72" fill-opacity="0.16"/>
+    <text x="362" y="585" font-size="10.5" font-weight="700" fill="#ff7b72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Gf</text>
+    <text x="382" y="586" font-size="12.5" font-weight="600" fill="#dbe4ee">Grafana</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="882" y="478" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="896" y="494" width="42" height="42" rx="9" fill="#f85149" fill-opacity="0.12" stroke="#f85149"/>
-      <text x="917" y="522" font-size="15" font-weight="bold" fill="#f85149" text-anchor="middle">Sq</text>
-      <text x="954" y="512" font-size="15" font-weight="bold" fill="#e6edf3">SonarQube</text>
-      <text x="954" y="530" font-size="11" fill="#8b949e">security</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="466" y="564" width="128" height="34" rx="8" fill="#181f27" stroke="#ff7b72" stroke-opacity="0.45"/>
+    <rect x="474" y="571" width="20" height="20" rx="5" fill="#ff7b72" fill-opacity="0.16"/>
+    <text x="484" y="585" font-size="10.5" font-weight="700" fill="#ff7b72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Pr</text>
+    <text x="504" y="586" font-size="12.5" font-weight="600" fill="#dbe4ee">Prometheus</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="48" y="568" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="62" y="584" width="42" height="42" rx="9" fill="#d29922" fill-opacity="0.12" stroke="#d29922"/>
-      <text x="83" y="612" font-size="15" font-weight="bold" fill="#d29922" text-anchor="middle">Pg</text>
-      <text x="120" y="602" font-size="15" font-weight="bold" fill="#e6edf3">PostgreSQL</text>
-      <text x="120" y="620" font-size="11" fill="#8b949e">databases</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="608" y="564" width="114" height="34" rx="8" fill="#181f27" stroke="#ff7b72" stroke-opacity="0.45"/>
+    <rect x="616" y="571" width="20" height="20" rx="5" fill="#ff7b72" fill-opacity="0.16"/>
+    <text x="626" y="585" font-size="10.5" font-weight="700" fill="#ff7b72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Tl</text>
+    <text x="646" y="586" font-size="12.5" font-weight="600" fill="#dbe4ee">Telegraf</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="326" y="568" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="340" y="584" width="42" height="42" rx="9" fill="#d29922" fill-opacity="0.12" stroke="#d29922"/>
-      <text x="361" y="612" font-size="15" font-weight="bold" fill="#d29922" text-anchor="middle">My</text>
-      <text x="398" y="602" font-size="15" font-weight="bold" fill="#e6edf3">MySQL</text>
-      <text x="398" y="620" font-size="11" fill="#8b949e">databases</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="736" y="564" width="128" height="34" rx="8" fill="#181f27" stroke="#ff7b72" stroke-opacity="0.45"/>
+    <rect x="744" y="571" width="20" height="20" rx="5" fill="#ff7b72" fill-opacity="0.16"/>
+    <text x="754" y="585" font-size="10.5" font-weight="700" fill="#ff7b72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Cw</text>
+    <text x="774" y="586" font-size="12.5" font-weight="600" fill="#dbe4ee">CloudWatch</text>
     </g>
-    <g font-family="monospace, monospace">
-      <rect x="604" y="568" width="262" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
-      <rect x="618" y="584" width="42" height="42" rx="9" fill="#d29922" fill-opacity="0.12" stroke="#d29922"/>
-      <text x="639" y="612" font-size="15" font-weight="bold" fill="#d29922" text-anchor="middle">Mo</text>
-      <text x="676" y="602" font-size="15" font-weight="bold" fill="#e6edf3">MongoDB</text>
-      <text x="676" y="620" font-size="11" fill="#8b949e">databases</text>
+<rect x="44" y="626" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="637" width="34" height="34" rx="9" fill="#f85149" fill-opacity="0.14" stroke="#f85149" stroke-opacity="0.5"/>
+<text x="77" y="659" font-size="14" font-weight="800" fill="#f85149" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">08</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="650" font-size="15" font-weight="700" fill="#e6edf3">Security Scanning</text>
+    <line x1="324" y1="640" x2="324" y2="668" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="636" width="122" height="34" rx="8" fill="#181f27" stroke="#f85149" stroke-opacity="0.45"/>
+    <rect x="352" y="643" width="20" height="20" rx="5" fill="#f85149" fill-opacity="0.16"/>
+    <text x="362" y="657" font-size="10.5" font-weight="700" fill="#f85149" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Sq</text>
+    <text x="382" y="658" font-size="12.5" font-weight="600" fill="#dbe4ee">SonarQube</text>
     </g>
-  <g font-family="monospace, monospace" font-size="14">
-    <text x="48" y="648" fill="#7ee787">build ● green</text>
-    <text x="185" y="648" fill="#3fb950">release ● automated</text>
-    <text x="390" y="648" fill="#8b949e">observe ● always on</text>
-    <text x="588" y="648" fill="#8b949e">ship ● fast</text>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="480" y="636" width="114" height="34" rx="8" fill="#181f27" stroke="#f85149" stroke-opacity="0.45"/>
+    <rect x="488" y="643" width="20" height="20" rx="5" fill="#f85149" fill-opacity="0.16"/>
+    <text x="498" y="657" font-size="10.5" font-weight="700" fill="#f85149" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Cv</text>
+    <text x="518" y="658" font-size="12.5" font-weight="600" fill="#dbe4ee">Coverity</text>
+    </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="608" y="636" width="126" height="34" rx="8" fill="#181f27" stroke="#f85149" stroke-opacity="0.45"/>
+    <rect x="616" y="643" width="20" height="20" rx="5" fill="#f85149" fill-opacity="0.16"/>
+    <text x="626" y="657" font-size="10.5" font-weight="700" fill="#f85149" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Bd</text>
+    <text x="646" y="658" font-size="12.5" font-weight="600" fill="#dbe4ee">Black Duck</text>
+    </g>
+<rect x="44" y="698" width="1112" height="56" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="60" y="709" width="34" height="34" rx="9" fill="#db61a2" fill-opacity="0.14" stroke="#db61a2" stroke-opacity="0.5"/>
+<text x="77" y="731" font-size="14" font-weight="800" fill="#db61a2" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">09</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="110" y="722" font-size="15" font-weight="700" fill="#e6edf3">Data</text>
+    <line x1="324" y1="712" x2="324" y2="740" stroke="#30363d"/>
+  </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="344" y="708" width="128" height="34" rx="8" fill="#181f27" stroke="#db61a2" stroke-opacity="0.45"/>
+    <rect x="352" y="715" width="20" height="20" rx="5" fill="#db61a2" fill-opacity="0.16"/>
+    <text x="362" y="729" font-size="10.5" font-weight="700" fill="#db61a2" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Pg</text>
+    <text x="382" y="730" font-size="12.5" font-weight="600" fill="#dbe4ee">PostgreSQL</text>
+    </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="486" y="708" width="90" height="34" rx="8" fill="#181f27" stroke="#db61a2" stroke-opacity="0.45"/>
+    <rect x="494" y="715" width="20" height="20" rx="5" fill="#db61a2" fill-opacity="0.16"/>
+    <text x="504" y="729" font-size="10.5" font-weight="700" fill="#db61a2" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">My</text>
+    <text x="524" y="730" font-size="12.5" font-weight="600" fill="#dbe4ee">MySQL</text>
+    </g>
+      <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="590" y="708" width="108" height="34" rx="8" fill="#181f27" stroke="#db61a2" stroke-opacity="0.45"/>
+    <rect x="598" y="715" width="20" height="20" rx="5" fill="#db61a2" fill-opacity="0.16"/>
+    <text x="608" y="729" font-size="10.5" font-weight="700" fill="#db61a2" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Mo</text>
+    <text x="628" y="730" font-size="12.5" font-weight="600" fill="#dbe4ee">MongoDB</text>
+    </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">
+    <text x="44" y="792" fill="#7ee787">build ~&gt; green</text>
+    <text x="168" y="792" fill="#3fb950">scan ~&gt; clean</text>
+    <text x="288" y="792" fill="#8b949e">release ~&gt; automated</text>
+    <text x="452" y="792" fill="#8b949e">observe ~&gt; always on</text>
+    <text x="1144" y="792" fill="#ff9f43" text-anchor="end">terraform apply *</text>
   </g>
 </svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Shayal Vaghasiya — key metrics highlights">
+  <defs>
+    <linearGradient id="lg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1521"/>
+    </linearGradient>
+    <linearGradient id="lg-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9f43"/>
+      <stop offset="1" stop-color="#fc6d26"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="150" fill="url(#lg-bg)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <circle cx="44" cy="30" r="4" fill="#ff9f43"/>
+    <text x="60" y="35" font-size="15" font-weight="700" fill="#e6edf3">KEY METRICS</text>
+    <text x="1156" y="35" font-size="12" fill="#8b949e" text-anchor="end">measured in prod · not vanity stats</text>
+  </g>
+
+  <!-- metric panel -->
+  <rect x="44" y="56" width="1112" height="66" rx="14" fill="#161b22" stroke="#30363d"/>
+
+  <!-- cell 1 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="84" y="100" font-size="26" font-weight="800" fill="#ff9f43">100+</text>
+    <text x="84" y="66" font-size="0.1" fill="none"/>
+    <text x="150" y="100" font-size="13" fill="#8b949e">Jenkins pipelines built &amp; maintained</text>
+  </g>
+  <line x1="316" y1="70" x2="316" y2="108" stroke="#30363d" stroke-opacity="0.6"/>
+
+  <!-- cell 2 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="350" y="100" font-size="26" font-weight="800" fill="#a371f7">−30%</text>
+    <text x="414" y="100" font-size="13" fill="#8b949e">release cycle time</text>
+  </g>
+  <line x1="592" y1="70" x2="592" y2="108" stroke="#30363d" stroke-opacity="0.6"/>
+
+  <!-- cell 3 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="626" y="100" font-size="26" font-weight="800" fill="#3fb950">99.99%</text>
+    <text x="701" y="100" font-size="13" fill="#8b949e">uptime across environments</text>
+  </g>
+  <line x1="872" y1="70" x2="872" y2="108" stroke="#30363d" stroke-opacity="0.6"/>
+
+  <!-- cell 4 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="906" y="100" font-size="26" font-weight="800" fill="#7ee787">0</text>
+    <text x="926" y="100" font-size="13" fill="#8b949e">infra drift · gitops-aligned</text>
+  </g>
+
+  <!-- footer -->
+  <text x="44" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" fill="#8b949e">$ deploy --zero-downtime --verified</text>
+  <text x="1144" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#a371f7" text-anchor="end">every release, every time</text>
+</svg>
